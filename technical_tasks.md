@@ -26,30 +26,21 @@
 ### 2.3.1 Главное окно
 Главное окно - дожно открываться после регистрации/авторизации/выхода из OnlineMode, а также по вызову из других "окон"
 
->**Header окна:**
+>**Messege окна:**
 >```Главное```
 >
->**Сообщение окна:**
+>**Embed окна:**
+> Author = f"Статус: {member.online}"
+> Title = 
 >```
->Text
->Text
->Text
->```
->
->**Selects:**
->- label = "Selector1", color = "green"
->- label = "Selector2", color = "red"
->- label = "Selector3", color = "orange"
-
-### 2.3.2 Окно 2
->**Header окна:**
->```Окно 2```
->
->**Сообщение окна:**
->```
->Text
->Text
->Text
+>:door: **Войти** - войти в игру (безопастная зона)
+:package: **Инвентарь** - открытие рюкзака
+:bust_in_silhouette: **Профиль** - информация о пользователе
+:notebook_with_decorative_cover: **Правила** - полный список RP и NonRP правил
+:page_with_curl: **Термины** - терминалогия RolePlay
+:bookmark: **Как играть?** - гайд по RolePlay
+:heart: **Donate** - покупки монет/привелегий
+:robot: **О боте** - краткое описание бота
 >```
 >
 >**Selects:**
