@@ -33,14 +33,14 @@
 > Author = f"Статус: {member.online}"
 > Title = 
 >```
->:door: **Войти** - войти в игру (безопастная зона)
-:package: **Инвентарь** - открытие рюкзака
-:bust_in_silhouette: **Профиль** - информация о пользователе
-:notebook_with_decorative_cover: **Правила** - полный список RP и NonRP правил
-:page_with_curl: **Термины** - терминалогия RolePlay
-:bookmark: **Как играть?** - гайд по RolePlay
-:heart: **Donate** - покупки монет/привелегий
-:robot: **О боте** - краткое описание бота
+>:door: **Войти** - войти в игру (безопастная зона)\n
+>:package: **Инвентарь** - открытие рюкзака\n
+>:bust_in_silhouette: **Профиль** - информация о пользователе\n
+>:notebook_with_decorative_cover: **Правила** - полный список RP и NonRP правил\n
+>:page_with_curl: **Термины** - терминалогия RolePlay\n
+>:bookmark: **Как играть?** - гайд по RolePlay\n
+>:heart: **Donate** - покупки монет/привелегий\n
+>:robot: **О боте** - краткое описание бота\n
 >```
 >
 >**Selects:**
