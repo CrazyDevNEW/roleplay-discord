@@ -26,17 +26,17 @@
 ### 2.3.1 Главное окно
 Главное окно - долно открываться после регистрации/авторизации/выхода из OnlineMode, а также по вызову из других "окон"
 
-**Header окна:**
-```Главное```
-
-**Сообщение окна:**
-```
-Text
-Text
-Text
-```
-
-**Selects:**
-- label = "Selector1", color = "green"
-- label = "Selector2", color = "red"
-- label = "Selector3", color = "orange"
+>**Header окна:**
+>```Главное```
+>
+>**Сообщение окна:**
+>```
+>Text
+>Text
+>Text
+>```
+>
+>**Selects:**
+>- label = "Selector1", color = "green"
+>- label = "Selector2", color = "red"
+>- label = "Selector3", color = "orange"
