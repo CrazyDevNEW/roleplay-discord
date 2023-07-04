@@ -44,6 +44,8 @@
 >```
 >
 >**Selects:**
->- label = "Selector1", color = "green"
->- label = "Selector2", color = "red"
->- label = "Selector3", color = "orange"
+>```
+>label = "Selector1", color = "green"
+>label = "Selector2", color = "red"
+>label = "Selector3", color = "orange"
+>```
