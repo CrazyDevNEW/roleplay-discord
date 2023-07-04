@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "roleplay-discord"
+version = "0.0.1"
+description = ""
+authors = ["crazydevnew <tel123404@gmail.com>"]
+readme = "README.md"
+packages = [{include = "roleplay_discord"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.3.1"
+sqlalchemy = "^2.0.17"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
