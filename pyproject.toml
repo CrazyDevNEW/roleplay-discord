@@ -8,13 +8,11 @@ packages = [{include = "roleplay_discord"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-<<<<<<< HEAD
 discord-py = "^2.3.1"
 sqlalchemy = "^2.0.17"
-=======
 
 [tool.poetry.group.dev.dependencies]
->>>>>>> c514811 (Update project)
+pytest = "^7.4.0"
 
 [build-system]
 requires = ["poetry-core"]
