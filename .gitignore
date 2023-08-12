@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 roleplay_discord/__pycache__/
+roleplay_discord/logs
