@@ -10,11 +10,12 @@ client = discord.Client(intents=intents)
 tree = discord.app_commands.CommandTree(client)
 
 now = datetime.now().strftime(config.time_format)
+logs_path = "roleplay_discord/logs/"
 try:
-    handler = logging.FileHandler(filename=f'logs/{now}.log', encoding='utf-8', mode='w')
+    handler = logging.FileHandler(filename=f'{logs_path}{now}.log', encoding='utf-8', mode='w')
 except FileNotFoundError:
     os.mkdir("logs/")
-    handler = logging.FileHandler(filename=f'logs/{now}.log', encoding='utf-8', mode='w')
+    handler = logging.FileHandler(filename=f'{logs_path}{now}.log', encoding='utf-8', mode='w')
 
 @client.event
 async def on_ready() -> None:
