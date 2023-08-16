@@ -1,5 +1,5 @@
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-GNUPG_PASS_DIR=Discord/FreeRPruDEV
+GNUPG_PASS_DIR=Path/To/Pass
 cd "${CURRENT_DIR}"
 
 client_run() {
