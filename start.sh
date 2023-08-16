@@ -5,8 +5,7 @@ cd "${CURRENT_DIR}"
 client_run() {
 	export DISCORD_API_TOKEN="$( pass $GNUPG_PASS_DIR )"
 	echo "Running Discord Client ..."
-	cd roleplay_discord
-	poetry run python main.py
+	poetry run python roleplay_discord/__init__.py
 }
 
 client_run
