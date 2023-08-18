@@ -1,4 +1,4 @@
-GNUPG_PASS_DIR=Path/To/Pass
+GNUPG_PASS_DIR=Category/Password
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "${CURRENT_DIR}"
 
