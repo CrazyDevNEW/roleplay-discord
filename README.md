@@ -15,7 +15,7 @@ Init PASS directory:
     `pass init user@mail.com`
     
 Create new encripder passworld:  
-    `pass inser Category/Password`
+    `pass insert Category/Password`
     
 ## Configurate
 Change in `start.sh` `GNUPG_PASS_DIR` the path to your encrypted password:
