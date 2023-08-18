@@ -14,7 +14,7 @@ Generate GnuPG keys:
 Init PASS directory:  
     `pass init user@mail.com`
     
-Create new encripder passworld:  
+Create new encripder password:  
     `pass insert Category/Password`
     
 ## Configurate
