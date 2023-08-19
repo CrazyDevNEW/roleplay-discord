@@ -14,7 +14,7 @@ logs_path = "roleplay_discord/logs/"
 try:
     handler = logging.FileHandler(filename=f'{logs_path}{now}.log', encoding='utf-8', mode='w')
 except FileNotFoundError:
-    os.mkdir("logs/")
+    os.mkdir(logs_path)
     handler = logging.FileHandler(filename=f'{logs_path}{now}.log', encoding='utf-8', mode='w')
 
 @client.event
