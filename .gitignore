@@ -161,3 +161,6 @@ cython_debug/
 
 roleplay_discord/__pycache__/
 roleplay_discord/logs
+
+# Start.sh
+start.sh
