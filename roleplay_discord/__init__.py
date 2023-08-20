@@ -19,15 +19,13 @@ except FileNotFoundError:
 
 @client.event
 async def on_ready() -> None:
-    for command in tree.get_commands():
-        tree.add_command(command)
     try:
         await tree.sync()
     except discord.app_commands.CommandAlreadyRegistered:
         pass
     print("Bot ready!")
 
-@tree.command(name="ping", description="Request pong!")
+@tree.command(name="ping2", description="Request pong!")
 async def ping(interection):
     await interection.response.send_message("Pong!")
 
