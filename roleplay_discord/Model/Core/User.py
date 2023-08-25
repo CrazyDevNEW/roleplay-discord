@@ -10,3 +10,6 @@ class User:
 
     def id(self) -> int:
         return 993
+
+    def online(self) -> bool:
+        return True
