@@ -5,7 +5,6 @@ from discord.ext import commands
 from discord.ui import Button, View
 
 import config
-import objects
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
