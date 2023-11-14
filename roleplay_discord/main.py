@@ -1,9 +1,7 @@
-import discord
 from datetime import datetime
-import os
+import discord
 from discord.ext import commands
 from discord.ui import Button, View
-
 import config
 
 intents = discord.Intents.default()
