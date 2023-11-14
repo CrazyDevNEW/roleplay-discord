@@ -1,8 +1,9 @@
 #!/bin/bash
 
-GNUPG_PASS_DIR=Discord/token
+GNUPG_PASS_DIR_DISCORD=Discord/token
+GUNPG_PASS_DIR_DB=Mariadb/passwd
 DB_USER=""
-DB_PASSWD=""
+DB_PASSWD="$( pass $GUNPG_PASS_DIR_DB )"
 DB_DATABASE=""
 DB_ADDES=""
 
@@ -12,7 +13,7 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "${CURRENT_DIR}"
 
 client_run() {
-	export DISCORD_API_TOKEN="$( pass $GNUPG_PASS_DIR )"
+	export DISCORD_API_TOKEN="$( pass $GNUPG_PASS_DIR_DISCORD )"
 	echo "Running Discord Client ..."
 	poetry run python roleplay_discord/main.py
 }
