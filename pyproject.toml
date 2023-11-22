@@ -10,6 +10,7 @@ packages = [{include = "roleplay_discord"}]
 python = "^3.11"
 discord-py = "^2.3.1"
 sqlalchemy = "^2.0.17"
+pymysql = "^1.1.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
