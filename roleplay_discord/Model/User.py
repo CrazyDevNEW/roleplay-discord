@@ -2,31 +2,31 @@ class IUser:
     def __init__(self) -> None:
         ...
 
-    def get_fistname(self) -> str:
+    @property
+    def fistname(self) -> str:
         ...
 
-    def get_lastname(self) -> str:
+    @property
+    def lastname(self) -> str:
         ...
-
-    def get_id(self) -> int:
-        ...
-
-    def get_exp(self) -> int:
+        
+    @property
+    def id(self) -> int:
         ...
 
 
 class DiscordUser(IUser):
-    def __init__(self, user_id: int, firstname: str, lastname: str, exp: int) -> None:
-        self.user_id = user_id
-        self.firstname = firstname
-        self.lastname = lastname
-        self.exp = exp
+    def __init__(self, user_id: int, firstname: str, lastname: str) -> None:
+        ...
 
-    def get_fistname(self) -> str:
+    @property
+    def fistname(self) -> str:
         return self.firstname
 
-    def get_lastname(self) -> str:
+    @property
+    def lastname(self) -> str:
         return self.lastname
     
-    def get_id(self) -> int:
+    @property
+    def id(self) -> int:
         return self.user_id
